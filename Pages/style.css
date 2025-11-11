@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Revalia&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Revalia&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Jaro:opsz@6..72&family=Manrope:wght@200..800&family=Revalia&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=WDXL+Lubrifont+TC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+header{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(160deg,rgb(7, 7, 38) ,rgb(2, 29, 2));
+}
+nav{
+    height: 70px;
+    width: 100%;
+    /* background-color: rgb(129, 184, 233); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ai{
+    height: 70px;
+    width: 30%;
+    /* background-color: rosybrown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.ai img{
+    height: 60px;
+    width: 30%;
+    padding-top: 10px;
+}
+.ai h1{
+    font-family: "Revalia", sans-serif;
+    color: whitesmoke;
+    font-size: 25px;
+    margin-left: -15px;
+}
+
+.navbar{
+    height: 70px;
+    width: 50%;
+    /* background-color: rgb(89, 176, 176); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar a{
+    color: whitesmoke;
+    margin-left: 30px;
+    font-family: tahoma;
+    text-decoration: none;
+    font-size: 18px;
+}
+.navbar a:hover{
+    color: rgb(255, 0, 255);
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+}
+
+.navbar button{
+    height: 45px;
+    width: 150px;
+    background: linear-gradient(to right,rgb(0, 0, 119), rgb(94, 94, 198), rgb(145, 152, 225),rgb(101, 243, 243), rgb(0, 255, 255));
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-family: tahoma;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.navbar button:hover{
+    background: linear-gradient(to right,rgb(2, 2, 71), rgb(70, 70, 182), rgb(100, 108, 199),rgb(50, 195, 195), rgba(2, 255, 255, 0.878));
+    
+}
+
+.navbar button span{
+    height: 30px;
+    width: 32px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 15px;
+    padding-top: 2px;
+    border-radius: 50%;
+    font-size: 23px;
+    color: rgb(11, 11, 141);
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+/* Background Effect */
+
+#back1{
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+    position: absolute;
+    top: -50px;
+    left: -270px;
+    box-shadow: 250px 250px 150px rgb(77, 1, 77);
+}
+
+
+/* Main Container  */
+.main_container{
+    height: 565px;
+    width: 100vw;
+    overflow-x: hidden;
+    /* background-color: aliceblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* part 1 */
+.main_container .part1{
+    height: 350px;
+    width: 40%;
+    position: relative;
+    left: 40px;
+    /* background-color: aquamarine; */
+}
+
+.main_container .part1 h1{
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-family: "Jaro", sans-serif;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    padding-left: 50px;
+    
+}
+
+.main_container .part1 p{
+    padding-left: 50px;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: rgb(175, 175, 175);
+    font-family: tahoma;
+}
+
+.main_container .part1 .btn{
+    display: flex;
+    align-items: center;
+}
+
+.main_container .part1 .btn button{
+    height: 40px;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: whitesmoke;
+    font-size: 15px;
+    border: none;
+    font-family: tahoma;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.main_container .part1 .btn button:first-child{
+    margin-left: 60px;
+    background: linear-gradient(to right,rgb(0, 0, 119), rgb(94, 94, 198), rgb(145, 152, 225),rgb(72, 181, 181), rgb(0, 255, 255));
+
+}
+
+.main_container .part1 .btn button:first-child:hover{
+    background: linear-gradient(to right,rgb(4, 4, 75), rgb(71, 71, 179), rgb(86, 95, 201),rgb(51, 179, 179), rgb(3, 159, 159));
+
+}
+
+.main_container .part1 .btn button:nth-child(2){
+    background: linear-gradient(to right,rgb(5, 5, 67), rgb(68, 68, 202), rgb(112, 120, 211),rgb(81, 228, 228), rgb(6, 172, 172));   
+}
+
+.main_container .part1 .btn button:nth-child(2):hover{
+    background: linear-gradient(to right,rgb(5, 5, 44), rgb(50, 50, 156), rgb(72, 79, 158),rgb(51, 159, 159), rgb(5, 176, 176));   
+
+}
+
+.main_container .part1 .btn #read_more{
+    height: 30px;
+    width: 32px;
+    background-color: rgb(238, 238, 238);
+    margin-left: 15px;
+    padding-top: 2px;
+    border-radius: 50%;
+    font-size: 23px;
+    color: rgb(6, 6, 148) ;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main_container .part1 .btn #contact{
+    height: 30px;
+    width: 32px;
+    background-color: rgb(11, 11, 141);
+    margin-left: 15px;
+    padding-top: 2px;
+    border-radius: 50%;
+    font-size: 23px;
+    color: rgb(255, 251, 251) ;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* part 2 */
+
+.part2 .image_part img{
+    height: 560px;
+}
+
+
+
+/* ******************************************* */
+
+/* page2_container */
+
+.page2_container{
+    height: 100vh;
+    width: 100vw;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.page2_container .main{
+    height: 400px;
+    width: 60%;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page2_container .main .part1{
+    height: 400px;
+    width: 45%;
+    /* background-color: rgb(141, 141, 41); */
+    /* padding-left: 30px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 50px;
+    /* overflow: hidden; */
+}
+
+.page2_container .main .part1 .bg_blur{
+    height: 230px;
+    width: 450px;
+    border-radius: 20px;
+    background-color: lightblue;
+    background-color: rgb(107, 239, 254);
+    opacity: 0.3;
+    position: relative;
+    top: -80px;
+    left: 3px;
+}
+
+.page2_container .main .part1 .image_part1{
+    height: 250px;
+    width: 300%;
+    /* background-color: yellowgreen; */
+    position: relative;
+    top: -45px;
+    left: -80px;
+    border-radius: 20px;
+    
+}
+.page2_container .main .part1 .image_part1 img{
+    height: 245px;
+    width: 300px;
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit: cover;
+}
+
+.page2_container .main .part1 .image_part2{
+    height: 160px;
+    width: 160px;
+    background-color: rgb(235, 250, 255);
+    position: absolute;
+    top: 200px;
+    left: 160px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    /* opacity: 0.5; */
+}
+
+.page2_container .main .part1 .image_part2 img{
+    height: 135px;
+    width: 140px;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 10px;
+    filter: drop-shadow(3px 20px 4px rgba(0, 0, 0, 0.3));
+}
+
+.page2_container .main .part1 .bg_last_blur{
+    height: 90px;
+    width: 90px;
+    border-radius: 20px;
+    background: linear-gradient(100deg, rgb(17, 17, 89),rgb(92, 92, 159), rgb(18, 130, 93), rgb(2, 102, 102));
+    position: absolute ;
+    bottom: 5px;
+    left: 130px;
+}
+
+
+/* .page2_container part 2 */
+
+.page2_container .main .part2{
+    height: 400px;
+    width: 45%;
+    margin-left: 10%;
+    /* background-color: rgb(231, 231, 33); */
+    position: relative;
+    left: -40px;
+}
+
+.page2_container .part2 #about{
+    font-family: tahoma;
+    text-transform: uppercase;
+    color: rgb(137, 137, 137);
+    font-size: 17px;
+}
+
+.page2_container .part2 #text{
+    color: rgb(68, 67, 67);
+    font-family: "Ubuntu", sans-serif;
+}
+
+.page2_container .part2 #para{
+    font-family: tahoma;
+    font-size: 15px;
+    margin-top: 10px;
+    line-height: 23px;
+    letter-spacing: 1px;
+    text-align: justify;
+    color: rgb(102, 102, 102);
+    margin-bottom: 10px;
+}
+
+.page2_container .main .part2 .section1{
+    height: 80px;
+    width: 100%;
+    /* background-color: aliceblue; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.page2_container .main .part2 .section1 .picture{
+    height: 75px;
+    width: 100px;
+    /* background-color:aqua; */
+}
+
+.page2_container .main .part2 .section1 .picture img{
+    height: 70px;
+    width:50px;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+.page2_container .main .part2 .section1 .text h1{
+    font-size: 18px;
+    letter-spacing: 0.1px;
+    margin-bottom:5px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    color: rgb(55, 55, 55);
+}
+
+.page2_container .main .part2 .section1 .text p{
+    margin-left: 5px;
+    color: rgb(137, 137, 137);
+    font-family: tahoma;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.page2_container .main .part2 .section1 .picture #page2_face_scanner{
+    height: 50px;
+    margin-top: 12px;
+}
